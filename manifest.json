@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Magento 2 - Admin edit button associated products",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "m2.ico"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*/catalog/product/edit/id/*"],
+      "js": ["script.js"]
+    }
+  ]
+}

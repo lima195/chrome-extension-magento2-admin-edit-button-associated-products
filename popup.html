@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Extension for Magento 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        body .container {
+            min-width: 400px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 3px solid #47a1fb;
+        }
+        .button {
+            background-color: #47a1fb;
+            color: #fff;
+            border-color: #47a1fb;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            box-shadow: none;
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+            border: 2px solid #fff;
+        }
+        .button:hover {
+            background-color: transparent;
+            border: 2px solid #47a1fb;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>M2 Admin Complex Product Edit Button</h2>
+        
+        <h3>Manual action</h3>
+        <p>If the button is not being displayed, you can force the action clicking in the button above:</p>
+        <button class="button" id="runScript">Add "Edit" button</button>
+
+        <h3>Usage</h3>
+        <ul>
+            <li>1. Log in to the Magento admin panel.</li>
+            <li>2. Navigate to the product page of a configurable or grouped product.</li>
+            <li>3. Locate the child products listed under the parent product.</li>
+            <li>4. Next to each child product, you will find an "Edit" button.</li>
+            <li>5. Click the "Edit" button to modify the child product's details directly from the parent product page. It will open the product page in new tab.</li>
+        </ul>
+
+        <h3>Issues</h3>
+        <p><a href="https://github.com/lima195/chrome-extension-magento2-admin-edit-button-associated-products/issues/new" target="_blank">Open a new issue</a></p>
+
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>
