@@ -1,15 +1,21 @@
 
 ## About this extension
 
-This is a chrome based extension, that allow the Magento 2 Merchant to add an "Edit" button to all children products of complex products such as Grouped, Configurable, etc... (Associated products).
+This is a chrome based extension, that allow the Magento 2 Merchant to add an "url" link to all associated products of grouped product type. Having the same behaviour as the grouped product type.
+
+## Install
+
+Crhome extension page:
+
+https://chromewebstore.google.com/detail/magento-2-admin-edit-butt/lojhghecokpikhfjgmaoikeajdhodpem?hl=en
 
 ## Usage
 
-1.  Log in to the Magento admin panel.
-2.  Navigate to the product page of a configurable or grouped product.
-3.  Locate the child products listed under the parent product.
-4.  Next to each child product, you will find an "Edit" button.
-5.  Click the "Edit" button to modify the child product's details directly from the parent product page. It will open the product page in new tab
+1. Log in to the Magento admin panel.
+2. Navigate to the product page of a configurable or grouped product.
+3. Locate the associated products listed under the parent product.
+4. Next to each associated product, you will find an "url" involving the product name.
+5. Click the product name to access the associated grouped product details page directly from the parent product page. It will open the product page in new tab.
 
 ## Support
 

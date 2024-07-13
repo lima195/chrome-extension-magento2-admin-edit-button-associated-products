@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Magento 2 - Admin edit button associated products",
+  "name": "Magento 2 - Admin Associated Grouped Products URL",
   "description": "Base Level Extension",
   "version": "1.0",
   "action": {
