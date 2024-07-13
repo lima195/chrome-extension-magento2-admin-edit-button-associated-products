@@ -1,3 +1,6 @@
+## Chrome Extension URL:
+
+https://chromewebstore.google.com/detail/magento-2-admin-edit-butt/lojhghecokpikhfjgmaoikeajdhodpem
 
 ## About this extension
 
