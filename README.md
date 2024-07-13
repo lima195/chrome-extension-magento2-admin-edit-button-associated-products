@@ -8,7 +8,7 @@ This is a chrome based extension, that allow the Magento 2 Merchant to add an "u
 
 ## Install
 
-Crhome extension page:
+Chrome extension page:
 
 https://chromewebstore.google.com/detail/magento-2-admin-edit-butt/lojhghecokpikhfjgmaoikeajdhodpem?hl=en
 
